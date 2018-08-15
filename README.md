@@ -11,7 +11,7 @@ module.exports = {
         'app': './src/index.js'                 //The entry point. Multiple entries can be specified
     },
     output: {
-        filename: '[name].bundle.js',           //[name] is the name of the entry being generated
+        filename: '[name].bundle.js',           //[name] is the name of the entry being bundled
         path: path.resolve(__dirname, 'dist')   //The absolute location for generating the bundle
     },
 };
